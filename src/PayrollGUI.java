@@ -7,12 +7,20 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**Group Members*************************************************************************************************
+ * 
+ * Everton Richards
+ * Asheka Quallo
+ * Adrian Williams
+ * Andre Mcmillon
+ * 
+ ****************************************************************************************************************/
+
 public class PayrollGUI extends JFrame {
     private DefaultTableModel tableModel;
     private JTable employeeTable;
     private List<Payable> payableList;
     
-
     public PayrollGUI() {
         payableList = new ArrayList<>();
         setTitle("Employee Payroll System");
